@@ -1,0 +1,180 @@
+body {
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+
+  background: #ffffff;
+  margin: 0 auto;
+
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.page-header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+
+.site-logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  list-style: none;
+}
+
+.site-logo-web {
+  color: #2196f3;
+  list-style: none;
+  font-family: Raleway, sans-serif;
+}
+
+.site-nav {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+.site-nav-link1,
+.site-nav-link2,
+.site-nav-link3 {
+  text-decoration: none;
+  list-style: none;
+}
+
+.site-nav-link1 {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.site-nav-link2 {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.site-nav-link3 {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.site-address-link1,
+.site-address-link2 {
+  text-decoration: none;
+  list-style: none;
+}
+
+.site-address-link1 {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.site-address-link2 {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+/* button{
+  cursor: pointer;
+  font-family: inherit;
+}  */
+
+/* Необхідна вагу для Raleway – 700, а для Roboto – 400, 500, 700 і 900. */
+
+/* Оформлення */
+
+/* «C1» Відсутні глобальні стилі елементів, крім <body>. */
+/* «C2» Для оформлення використовуються селектори класу. */
+
+/* «C3» В стилях відсутній !important. */
+
+/* «C4» Інтерактивні елементи (кнопки і посилання), при наведенні мишкою або фокусі з клавіатури, мають активний стан, вказаний в макеті (зміна кольору). */
+
+/* «С5» Текст контактів в хедері і футері змінює колір при ховері і фокусі. */
+
+/* «C6» Для зберігання палітри кольорів макета (текст, фон, виділення) використовуються CSS-змінні. */
+
+/* «С7» Для елемента <body> задана властивість font-family з домінантним шрифтом на макеті Roboto. */
+
+/* «С8» Вказані альтернативні варіанти шрифту і тип сімейства (без зарубок) в кінці переліку font-family в елемента <body>. */
+
+/* «С9» Сімейство шрифтів Roboto явно задане тільки для елемента <body>, інші елементи наслідують його. */
+
+/* «С10» Для елемента <body> задана властивість color з кольором тексту, домінантним на макеті. Решта тексту наслідує або перекриває це значення. */
+
+/* «С11» Розмір шрифту (властивість font-size) всіх текстових елементів точно відповідає значенням з макета. */
+
+/* /* «С12» Висота рядка (властивість line-height) всіх текстових елементів точно відповідає значенням з макета і задана як множник, а не в px. */
+
+/* «С13» Колір (властивість color) всіх текстових елементів точно відповідає значенням з макета. */
+
+/* «С14» Вага шрифту (властивість font-weight) всіх текстових елементів точно відповідає значенням з макета. */
+
+/* «С15» Вага шрифту (властивість font-weight) явно вказана тільки, якщо значення в макеті відрізняється від стандартного для цього елемента в браузері. */
+
+/* «С16» Кнопкам задана властивість cursor зі значенням pointer. */
+
+/* «С17» У стилях не повторюються значення властивостей, які задані браузером за замовчуванням. Наприклад, посиланням не потрібно вказувати cursor: pointer, а абзацам font-style: normal або font-weight: 400. */
