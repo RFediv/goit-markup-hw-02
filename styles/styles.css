@@ -38,7 +38,7 @@
   left: 215px;
   top: 24px;
 
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -56,10 +56,6 @@
   font-family: Raleway, sans-serif;
 }
 
-.link {
-  list-style: none;
-  text-decoration: none;
-}
 a:hover,
 a:hover::before {
   color: #2196f3;
@@ -81,6 +77,11 @@ a:hover::before {
   list-style: none;
   text-decoration: none;
 }
+.site-nav li {
+  list-style: none;
+  text-decoration: none;
+}
+
 .site-nav-link2 {
   position: absolute;
   width: 76px;
@@ -88,7 +89,6 @@ a:hover::before {
   left: 552px;
   top: 32px;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -170,7 +170,6 @@ a:hover::before {
   left: 452px;
   top: 280px;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -190,38 +189,41 @@ a:hover::before {
   left: 700px;
   top: 430px;
   cursor: pointer;
-  font-family: inherit;
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.specifics-div1 {
+.specific-1 {
   position: absolute;
   width: 270px;
   height: 101px;
   left: 215px;
   top: 774px;
+  list-style: none;
 }
-.specifics-div2 {
+.specific-2 {
   position: absolute;
   width: 270px;
   height: 101px;
   left: 515px;
   top: 774px;
+  list-style: none;
 }
-.specifics-div3 {
+.specific-3 {
   position: absolute;
   width: 270px;
   height: 101px;
   left: 815px;
   top: 774px;
+  list-style: none;
 }
-.specifics-div4 {
+.specific-4 {
   position: absolute;
   width: 270px;
   height: 101px;
   left: 1115px;
   top: 774px;
+  list-style: none;
 }
 
 .specifics-item {
@@ -296,6 +298,7 @@ a:hover::before {
   height: 368px;
   left: 215px;
   top: 1635px;
+  list-style: none;
 }
 
 .team-person-2 {
@@ -304,6 +307,7 @@ a:hover::before {
   height: 368px;
   left: 515px;
   top: 1635px;
+  list-style: none;
 }
 
 .team-person-3 {
@@ -312,6 +316,7 @@ a:hover::before {
   height: 368px;
   left: 815px;
   top: 1635px;
+  list-style: none;
 }
 
 .team-person-4 {
@@ -320,6 +325,7 @@ a:hover::before {
   height: 368px;
   left: 1115px;
   top: 1635px;
+  list-style: none;
 }
 
 .team-name {
@@ -352,7 +358,7 @@ a:hover::before {
 }
 
 .site-logo-footer {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -378,7 +384,6 @@ a:hover::before {
   top: 2208px;
 }
 .address-map {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -389,7 +394,6 @@ a:hover::before {
 }
 
 .footer-link {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -413,12 +417,17 @@ button:hover::before {
   background-color: #2196f3;
   color: #ffffff;
 }
+
+.filter li {
+  list-style: none;
+}
 .filter-button-1 {
   position: absolute;
   width: 73px;
   height: 38px;
   left: 495px;
   border: none;
+  cursor: pointer;
 }
 
 .filter-button-2 {
@@ -427,6 +436,7 @@ button:hover::before {
   height: 38px;
   left: 576px;
   border: none;
+  cursor: pointer;
 }
 .filter-button-3 {
   position: absolute;
@@ -434,6 +444,7 @@ button:hover::before {
   height: 38px;
   left: 712px;
   border: none;
+  cursor: pointer;
 }
 .filter-button-4 {
   position: absolute;
@@ -441,6 +452,7 @@ button:hover::before {
   height: 38px;
   left: 865px;
   border: none;
+  cursor: pointer;
 }
 .filter-button-5 {
   position: absolute;
@@ -448,6 +460,7 @@ button:hover::before {
   height: 38px;
   left: 976px;
   border: none;
+  cursor: pointer;
 }
 .filter-portfolio-1 {
   position: absolute;
@@ -455,6 +468,7 @@ button:hover::before {
   height: 404px;
   left: 215px;
   top: 262px;
+  list-style: none;
 }
 .filter-portfolio-2 {
   position: absolute;
@@ -462,6 +476,7 @@ button:hover::before {
   height: 404px;
   left: 615px;
   top: 262px;
+  list-style: none;
 }
 .filter-portfolio-3 {
   position: absolute;
@@ -469,6 +484,7 @@ button:hover::before {
   height: 404px;
   left: 1015px;
   top: 262px;
+  list-style: none;
 }
 .filter-portfolio-4 {
   position: absolute;
@@ -476,6 +492,7 @@ button:hover::before {
   height: 404px;
   left: 215px;
   top: 696px;
+  list-style: none;
 }
 .filter-portfolio-5 {
   position: absolute;
@@ -483,6 +500,7 @@ button:hover::before {
   height: 404px;
   left: 615px;
   top: 696px;
+  list-style: none;
 }
 .filter-portfolio-6 {
   position: absolute;
@@ -490,6 +508,7 @@ button:hover::before {
   height: 404px;
   left: 1015px;
   top: 696px;
+  list-style: none;
 }
 .filter-portfolio-7 {
   position: absolute;
@@ -497,6 +516,7 @@ button:hover::before {
   height: 404px;
   left: 215px;
   top: 1130px;
+  list-style: none;
 }
 .filter-portfolio-8 {
   position: absolute;
@@ -504,6 +524,7 @@ button:hover::before {
   height: 404px;
   left: 615px;
   top: 1130px;
+  list-style: none;
 }
 .filter-portfolio-9 {
   position: absolute;
@@ -511,6 +532,7 @@ button:hover::before {
   height: 404px;
   left: 1015px;
   top: 1130px;
+  list-style: none;
 }
 
 .filter-portfolio-title {
