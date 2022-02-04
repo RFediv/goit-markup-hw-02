@@ -43,10 +43,11 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
 
   letter-spacing: 0.03em;
   color: #000000;
+  list-style: none;
+  text-decoration: none;
 }
 
 .site-logo-web {
@@ -58,6 +59,10 @@
 .link {
   list-style: none;
   text-decoration: none;
+}
+a:hover,
+a:hover::before {
+  color: #2196f3;
 }
 
 .site-nav-link1 {
@@ -87,7 +92,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -109,44 +114,6 @@
   color: #212121;
   list-style: none;
   text-decoration: none;
-}
-
-.site-nav-studia {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-  text-decoration: none;
-  list-style: none;
-}
-
-.site-nav-portfolio {
-  position: absolute;
-  width: 76px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-  text-decoration: none;
-  list-style: none;
 }
 
 .site-address-link1,
@@ -207,8 +174,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
+  line-height: 1.36;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -225,41 +191,340 @@
   top: 430px;
   cursor: pointer;
   font-family: inherit;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
-/* Необхідна вагу для Raleway – 700, а для Roboto – 400, 500, 700 і 900. */
+.specifics-div1 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.specifics-div2 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
+}
+.specifics-div3 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 815px;
+  top: 774px;
+}
+.specifics-div4 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 774px;
+}
 
-/* Оформлення */
+.specifics-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-/* «C1» Відсутні глобальні стилі елементів, крім <body>. */
-/* «C2» Для оформлення використовуються селектори класу. */
+  color: #212121;
+}
+.specifics-text {
+  font-size: 14px;
+  line-height: 1.71;
 
-/* «C3» В стилях відсутній !important. */
+  letter-spacing: 0.03em;
 
-/* «C4» Інтерактивні елементи (кнопки і посилання), при наведенні мишкою або фокусі з клавіатури, мають активний стан, вказаний в макеті (зміна кольору). */
+  color: #757575;
+}
 
-/* «С5» Текст контактів в хедері і футері змінює колір при ховері і фокусі. */
+.about {
+  position: absolute;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
 
-/* «C6» Для зберігання палітри кольорів макета (текст, фон, виділення) використовуються CSS-змінні. */
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: justify;
+}
 
-/* «С7» Для елемента <body> задана властивість font-family з домінантним шрифтом на макеті Roboto. */
+.about-img-1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+.about-img-2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+.about-img-3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
 
-/* «С8» Вказані альтернативні варіанти шрифту і тип сімейства (без зарубок) в кінці переліку font-family в елемента <body>. */
+.team {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
 
-/* «С9» Сімейство шрифтів Roboto явно задане тільки для елемента <body>, інші елементи наслідують його. */
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: justify;
+}
 
-/* «С10» Для елемента <body> задана властивість color з кольором тексту, домінантним на макеті. Решта тексту наслідує або перекриває це значення. */
+.team-person-1 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+}
 
-/* «С11» Розмір шрифту (властивість font-size) всіх текстових елементів точно відповідає значенням з макета. */
+.team-person-2 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+}
 
-/* /* «С12» Висота рядка (властивість line-height) всіх текстових елементів точно відповідає значенням з макета і задана як множник, а не в px. */
+.team-person-3 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+}
 
-/* «С13» Колір (властивість color) всіх текстових елементів точно відповідає значенням з макета. */
+.team-person-4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+}
 
-/* «С14» Вага шрифту (властивість font-weight) всіх текстових елементів точно відповідає значенням з макета. */
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 
-/* «С15» Вага шрифту (властивість font-weight) явно вказана тільки, якщо значення в макеті відрізняється від стандартного для цього елемента в браузері. */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
 
-/* «С16» Кнопкам задана властивість cursor зі значенням pointer. */
+  text-align: center;
+  letter-spacing: 0.03em;
 
-/* «С17» У стилях не повторюються значення властивостей, які задані браузером за замовчуванням. Наприклад, посиланням не потрібно вказувати cursor: pointer, а абзацам font-style: normal або font-weight: 400. */
+  color: #757575;
+}
+
+/* FOOTER */
+.page-footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
+
+.site-logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  list-style: italic;
+  text-decoration: none;
+}
+
+.site-logo-web-footer {
+  color: #2196f3;
+  list-style: none;
+  font-family: Raleway, sans-serif;
+}
+
+.address-footer {
+  width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 2208px;
+}
+.address-map {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/* PORTFOLIO */
+.filter {
+  width: 1170px;
+  height: 1360px;
+  top: 174px;
+
+  position: relative;
+}
+
+.filter button:hover,
+button:hover::before {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.filter-button-1 {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  border: none;
+}
+
+.filter-button-2 {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  border: none;
+}
+.filter-button-3 {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  border: none;
+}
+.filter-button-4 {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  border: none;
+}
+.filter-button-5 {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  border: none;
+}
+.filter-portfolio-1 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+}
+.filter-portfolio-2 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+}
+.filter-portfolio-3 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+}
+.filter-portfolio-4 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+}
+.filter-portfolio-5 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+}
+.filter-portfolio-6 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+}
+.filter-portfolio-7 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+}
+.filter-portfolio-8 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+}
+.filter-portfolio-9 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+}
+
+.filter-portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+.filter-portfolio-type {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
