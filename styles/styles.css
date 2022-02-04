@@ -1,7 +1,7 @@
-body {
+.body-studia {
   position: relative;
   width: 1600px;
-  height: 1880px;
+  height: 2349px;
 
   background: #ffffff;
   margin: 0 auto;
@@ -10,7 +10,17 @@ body {
   background-color: #ffffff;
   color: #212121;
 }
+.body-portfolio {
+  position: relative;
+  width: 1600px;
+  height: 1880px;
 
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+  color: #212121;
+}
+
+/* HEADER */
 .page-header {
   position: absolute;
   width: 1600px;
@@ -22,19 +32,21 @@ body {
 }
 
 .site-logo {
+  position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
   top: 24px;
-  font-family: Raleway, sans-serif;
+
+  font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  /* identical to box height */
 
+  letter-spacing: 0.03em;
   color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-decoration: none;
-  list-style: none;
 }
 
 .site-logo-web {
@@ -43,19 +55,9 @@ body {
   font-family: Raleway, sans-serif;
 }
 
-.site-nav {
-  position: absolute;
-  width: 294px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-}
-
-.site-nav-link1,
-.site-nav-link2,
-.site-nav-link3 {
-  text-decoration: none;
+.link {
   list-style: none;
+  text-decoration: none;
 }
 
 .site-nav-link1 {
@@ -71,20 +73,26 @@ body {
   letter-spacing: 0.02em;
 
   color: #212121;
+  list-style: none;
+  text-decoration: none;
 }
 .site-nav-link2 {
   position: absolute;
-  width: 77px;
+  width: 76px;
   height: 16px;
   left: 552px;
   top: 32px;
 
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: #212121;
+  list-style: none;
+  text-decoration: none;
 }
 .site-nav-link3 {
   position: absolute;
@@ -99,6 +107,46 @@ body {
   letter-spacing: 0.02em;
 
   color: #212121;
+  list-style: none;
+  text-decoration: none;
+}
+
+.site-nav-studia {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+  text-decoration: none;
+  list-style: none;
+}
+
+.site-nav-portfolio {
+  position: absolute;
+  width: 76px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+  text-decoration: none;
+  list-style: none;
 }
 
 .site-address-link1,
@@ -137,10 +185,47 @@ body {
   color: #757575;
 }
 
-/* button{
+/* MAIN-STUDIA */
+.site-title-section {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+
+.site-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.site-title-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
   cursor: pointer;
   font-family: inherit;
-}  */
+}
 
 /* Необхідна вагу для Raleway – 700, а для Roboto – 400, 500, 700 і 900. */
 
