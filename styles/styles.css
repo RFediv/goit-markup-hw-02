@@ -22,6 +22,7 @@ body {
 
 .site-nav-link,
 li {
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
   color: #212121;
@@ -38,6 +39,7 @@ li {
   text-decoration: none;
   list-style: none;
   font-style: normal;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
   color: #757575;
@@ -68,6 +70,7 @@ li {
 
 .address-map {
   font-style: normal;
+  font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
   text-decoration: none;
@@ -75,6 +78,7 @@ li {
 
 .footer-link {
   font-style: normal;
+  font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 60%);
   text-decoration: none;
@@ -89,6 +93,7 @@ li {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -103,6 +108,7 @@ li {
 
 .specifics-item {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
 }
@@ -111,7 +117,7 @@ li {
   color: #757575;
 }
 
-.about {
+.about-item {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -151,6 +157,10 @@ li {
 .filter-button {
   border: none;
   cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 
 .filter-portfolio-title {
